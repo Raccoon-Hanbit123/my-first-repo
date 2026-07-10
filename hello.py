@@ -10,3 +10,13 @@ print(f"오늘부터 {name}은(는) {role}입니다!")
 numbers = [1, 2, 3, 4, 5]
 total = sum(numbers)
 print(f"1부터 5까지 합계: {total}") 
+
+# 새로 추가한 인사말
+print("=" * 40)
+print("Git 실습 두 번째 커밋 진행 중!")
+print("=" * 40)
+
+languages = ["Python", "JavaScript", "Java"]
+print("배우고 싶은 언어:")
+for lang in languages:
+    print(f" - {lang}")
